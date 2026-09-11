@@ -1,2 +1,2 @@
-assemblyai
-streamlit
+streamlit==1.39.0
+assemblyai==0.38.0

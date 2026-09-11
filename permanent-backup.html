@@ -1,0 +1,5 @@
+<!DOCTYPE html><html><body>
+<h1>SautiChapChap - Offline</h1>
+<input type="file" id="f" accept="audio/*"><audio id="a" controls></audio>
+<script>document.getElementById('f').onchange=e=>{document.getElementById('a').src=URL.createObjectURL(e.target.files[0])}</script>
+</body></html>
